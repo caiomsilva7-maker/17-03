@@ -1,0 +1,8 @@
+import os
+os.system('cls')
+soma = 0
+for i in range(4):
+    nota = int(input('Digite a nota do aluno: '))
+    soma += nota
+media = soma / 4
+print(f"média: {media}")
